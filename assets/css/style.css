@@ -1,0 +1,194 @@
+/**/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.navbar-dark.black{
+    background: #000;
+    height: 80px;
+    padding: 10px 50px;
+}
+
+
+#link {
+    margin: 15px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Start about*/
+#btntop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    background: #42bedd;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+.img-fluid{
+    height: 570px;
+    width: 500px;
+}
+
+#pad{
+    padding-top: 80px;
+}
+
+#btn1 > button{
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    width: 180px;
+    height: 60px;
+}
+
+.btn2{
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    background: #000;
+    border: #000;
+    cursor: pointer;
+}
+
+.xcl{
+    padding-top: 15px;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn2:hover{
+    background: #635d5e;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+}
+
+/*start gallerie*/
+#gallerie{
+    padding-top: 120px;
+}
+
+/*start parcours*/
+#parcours{
+    padding-top: 80px;
+}
+
+#fashion{
+    padding-top: 50px;
+}
+
+
+/* start contact*/
+#contact{
+    padding-top: 110px;
+}
+
+/*footer*/
+footer{
+    background: #000;
+    color: #d5d5d5;
+    padding-top: 2rem;
+  }
+  
+
+  footer a{
+    color: #d5d5d5;
+  }
+  .light{
+    border: 0.6px solid #2e2d2d;
+}
+
+.light-100{
+    border: 0.6px solid #2e2d2d;
+}
+
+  .social a{
+    margin: 5px;
+}
+
+/*twitter*/
+.fa-twitter{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    background: #a19d9d88;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fa-twitter:hover{
+    background: rgb(182, 77, 159);
+}
+
+.fa-instagram{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    background: #a19d9d88;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover{
+    background: rgb(182, 77, 159);
+}
+
+.fa-facebook-f{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    background: #a19d9d88;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fa-facebook-f:hover{
+    background: rgb(182, 77, 159);
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-dark.black{
+       display: none;
+    }
+    .navbar-dark{
+        background: #000;
+    }
+    .slide{
+        padding-top: 42px;
+    }
+    .img-fluid{
+        height: 450px;
+        width: 500px;
+    }
+}
